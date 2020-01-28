@@ -514,8 +514,7 @@ public class AntrianMobil extends javax.swing.JFrame {
 //        System.out.println(cetak_antrian());
         String a = cetak_antrian();
         NoAntrian form = new NoAntrian(a, toStringnoantrian1());
-        form.dispose();
-        form.setVisible(true);
+       form.setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
